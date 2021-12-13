@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.home {
+  margin-top: 15px;
+  width: 100%;
+  min-height: 100%;
+}
+.home .image-banner {
+  width: 80%;
+  min-height: 210px;
+  background-image: url(../assests/images/keurig-banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+.home .sort-options-banner {
+  width: 80%;
+  margin: 20px auto;
+}
+.home .sort-options-banner .options-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.home .sort-options-banner .options-container .sort-option-box {
+  height: 51px;
+  width: 129px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-style: solid;
+  border-width: 2.5px;
+  margin-right: 10px;
+  border-color: #999999;
+  border-radius: 4px;
+}
+.home .sort-options-banner .options-container .sort-option-box .sort-option-text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #999999;
+  font-size: 14px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.home .sort-options-banner .options-container .sort-option-box .down-arrow {
+  height: 12px;
+  fill: #999999;
+}
+
+.top-banner {
+  height: 140px;
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-left: 40px;
+}
+.top-banner .search-banner {
+  height: 88px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.top-banner .search-banner .logo {
+  background-image: url(../assests/images/keurig-logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 35px;
+  width: 180px;
+}
+.top-banner .search-banner .search-bar {
+  width: 603px;
+  min-height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #e9e9e9;
+  border-radius: 20.5px;
+}
+.top-banner .search-banner .search-bar .search-icon {
+  margin-left: 10px;
+  height: 30px;
+  width: 34px;
+  background-image: url(../assests/images/search-icon.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.top-banner .search-banner .search-bar .search-input {
+  padding-left: 5px;
+  width: 545px;
+  height: 30px;
+  background-color: #e9e9e9;
+  border: none;
+}
+.top-banner .search-banner .cart-cluster {
+  height: 38px;
+  width: 276px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.top-banner .search-banner .cart-cluster .profile-icon {
+  height: 30px;
+  width: 34px;
+  background-image: url(../assests/images/profile-icon.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.top-banner .search-banner .cart-cluster .shopping-cart-icon {
+  height: 30px;
+  width: 34px;
+  background-image: url(../assests/images/cart-icon.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.top-banner .nav-links {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.top-banner .nav-links a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  line-height: 26px;
+  text-transform: uppercase;
+}
