@@ -5,7 +5,7 @@
       "image": "assests/images/keurig-1.webp",
       "name": "K Supreme Plus",
       "price": "$99.99",
-      "shippingicon": "",
+      "shippingicon": "assests/images/shipping.png",
       "buynow": false
     },
     {
@@ -13,7 +13,7 @@
       "image": "assests/images/keurig-2.webp",
       "name": "K-Mini Single Serve",
       "price": "$79.99",
-      "shippingicon": "",
+      "shippingicon": "assests/images/shipping.png",
       "buynow": false
     },
     {
@@ -21,7 +21,7 @@
       "image": "assests/images/keurig-3.webp",
       "name": "Keurig K Select",
       "price": "$99.99",
-      "shippingicon": "",
+      "shippingicon": "assests/images/shipping.png",
       "buynow": false
     },
     {
@@ -29,7 +29,7 @@
       "image": "assests/images/keurig-4.webp",
       "name": "Keurig K-Elite",
       "price": "$179.99",
-      "shippingicon": "",
+      "shippingicon": "assests/images/shipping.png",
       "buynow": false
     },
     {
@@ -37,7 +37,7 @@
       "image": "assests/images/keurig-5.webp",
       "name": "K-cafe Single Server",
       "price": "$179.99",
-      "shippingicon": "",
+      "shippingicon": "assests/images/shipping.png",
       "buynow": false
     },
     {
@@ -45,7 +45,7 @@
       "image": "assests/images/keurig-6.webp",
       "name": "K-slim Single Serve",
       "price": "$89.99",
-      "shippingicon": "",
+      "shippingicon": "assests/images/shipping.png",
       "buynow": false
     },
     {
@@ -53,7 +53,7 @@
       "image": "assests/images/keurig-7.webp",
       "name": "K-Mini Plus",
       "price": "$99.99",
-      "shippingicon": "",
+      "shippingicon": "assests/images/shipping.png",
       "buynow": false
     },
     {
@@ -61,7 +61,7 @@
       "image": "assests/images/keurig-8.webp",
       "name": "K-Duo Single Serve & Carafee",
       "price": "$89.99",
-      "shippingicon": "",
+      "shippingicon": "assests/images/shipping.png",
       "buynow": false
     },
     {
@@ -69,7 +69,7 @@
       "image": "assests/images/keurig-9.webp",
       "name": "Keurig K Supreme",
       "price": "$74.99",
-      "shippingicon": "",
+      "shippingicon": "assests/images/shipping.png",
       "buynow": false
     },
     {
@@ -77,7 +77,7 @@
       "image": "assests/images/keurig-10.webp",
       "name": "Keurig K-Classic",
       "price": "$69.99",
-      "shippingicon": "",
+      "shippingicon": "assests/images/shipping.png",
       "buynow": false
     }
   ]
