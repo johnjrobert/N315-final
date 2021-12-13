@@ -8,6 +8,7 @@
   justify-content: space-evenly;
   //   margin: 0 auto;
   margin-left: 40px;
+  display: block;
 
   .search-banner {
     height: 88px;
@@ -99,5 +100,34 @@
       line-height: 26px;
       text-transform: uppercase;
     }
+  }
+}
+
+.menu-icon {
+  height: 30px;
+  width: 60px;
+  cursor: pointer;
+  padding-top: 15px;
+  padding-left: 15px;
+  display: none;
+
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .top-banner {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
   }
 }

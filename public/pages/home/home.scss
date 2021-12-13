@@ -17,6 +17,7 @@
   .sort-options-banner {
     width: 80%;
     margin: 20px auto;
+    display: block;
 
     .options-container {
       display: flex;
@@ -91,6 +92,19 @@
       .coffee-price {
         font-size: 16px;
       }
+
+      .coffe-shipping-icon {
+        width: 200px;
+        height: 50px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .home {
+    .sort-options-banner {
+      display: none;
     }
   }
 }
