@@ -7,13 +7,9 @@ function initFirebase() {
         .then(() => {
           UpdateSiteWithInfo();
         });
-      $(".pName").css("display", "block");
-      $(".pName").html(user.fName);
-      loadUserRecipe();
     } else {
-      loadPublicRecipes();
       console.log("user is not there");
-      $(".pName").css("display", "none");
+
       _db = "";
     }
   });
