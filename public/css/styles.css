@@ -77,6 +77,29 @@ p {
   height: 12px;
   fill: #999999;
 }
+.home #coffeecont {
+  background-color: red;
+  width: 75%;
+  height: 1000px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.home #coffeecont #insideCoffeeCont {
+  width: 300px;
+  height: 500px;
+  background-color: blue;
+}
+.home #coffeecont #insideCoffeeCont .coffee-image {
+  width: 100px;
+  height: 300px;
+}
 
 .top-banner {
   height: 140px;

@@ -1,0 +1,84 @@
+{
+  "COFFEEMAKERS": [
+    {
+      "id": 1,
+      "image": "assests/images/keurig-1.webp",
+      "name": "K Supreme Plus",
+      "price": "$99.99",
+      "shippingicon": "",
+      "buynow": false
+    },
+    {
+      "id": 2,
+      "image": "assests/images/keurig-2.webp",
+      "name": "K-Mini Single Serve",
+      "price": "$79.99",
+      "shippingicon": "",
+      "buynow": false
+    },
+    {
+      "id": 3,
+      "image": "assests/images/keurig-3.webp",
+      "name": "Keurig K Select",
+      "price": "$99.99",
+      "shippingicon": "",
+      "buynow": false
+    },
+    {
+      "id": 4,
+      "image": "assests/images/keurig-4.webp",
+      "name": "Keurig K-Elite",
+      "price": "$179.99",
+      "shippingicon": "",
+      "buynow": false
+    },
+    {
+      "id": 5,
+      "image": "assests/images/keurig-5.webp",
+      "name": "K-cafe Single Server",
+      "price": "$179.99",
+      "shippingicon": "",
+      "buynow": false
+    },
+    {
+      "id": 6,
+      "image": "assests/images/keurig-6.webp",
+      "name": "K-slim Single Serve",
+      "price": "$89.99",
+      "shippingicon": "",
+      "buynow": false
+    },
+    {
+      "id": 7,
+      "image": "assests/images/keurig-7.webp",
+      "name": "K-Mini Plus",
+      "price": "$99.99",
+      "shippingicon": "",
+      "buynow": false
+    },
+    {
+      "id": 8,
+      "image": "assests/images/keurig-8.webp",
+      "name": "K-Duo Single Serve & Carafee",
+      "price": "$89.99",
+      "shippingicon": "",
+      "buynow": false
+    },
+    {
+      "id": 9,
+      "image": "assests/images/keurig-9.webp",
+      "name": "Keurig K Supreme",
+      "price": "$74.99",
+      "shippingicon": "",
+      "buynow": false
+    },
+    {
+      "id": 10,
+      "image": "assests/images/keurig-10.webp",
+      "name": "Keurig K-Classic",
+      "price": "$69.99",
+      "shippingicon": "",
+      "buynow": false
+    }
+  ]
+}

@@ -53,4 +53,25 @@
       }
     }
   }
+
+  #coffeecont {
+    background-color: red;
+    width: 75%;
+    height: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    #insideCoffeeCont {
+      width: 300px;
+      height: 500px;
+      background-color: blue;
+
+      .coffee-image {
+        width: 100px;
+        height: 300px;
+      }
+    }
+  }
 }
